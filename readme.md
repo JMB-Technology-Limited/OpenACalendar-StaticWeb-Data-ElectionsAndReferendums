@@ -21,13 +21,13 @@ Change base url to whatever
 
 Fork this repository, make changes and make a pull request!
 
-See the data/gb folder for an example.
+See the _data/gb_ folder for an example.
 
 ### To add a new country
 
 Make a new folder in _data_. The name doesn't actually matter, but a name that will help others find it later is good.
 
-In that folder, make _data.ini_ and add:
+In that folder, make _data.ini_ (this file name does matter) and add:
 
 ```
 [country]
@@ -51,4 +51,4 @@ description=""
 url="https://en.wikipedia.org/wiki/Scottish_Parliament_election,_2016"
 ```
 
-Slug is used to make up the url ( _/event/<slug>/_ ) and must be unique across the site. It should start with the country code, have the year and some other text in.
+Slug is used to make up the url ( _/event/slug_goes_here/_ ) and must be unique across the site. It should start with the country code, have the year and some other text in.
